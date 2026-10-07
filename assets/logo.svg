@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">TechHub Class</title>
+  <desc id="desc">Hexágono azul com um capelo acadêmico branco e circuito digital turquesa.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#36d9ff"/>
+      <stop offset="1" stop-color="#1682ff"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10108b"/>
+      <stop offset="1" stop-color="#00005e"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 5 113 33v62l-49 28L15 95V33Z" fill="url(#tile)" stroke="url(#edge)" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M64 19 101 40v48L64 109 27 88V40Z" fill="none" stroke="#48d7ff" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M34 54 64 38l30 16-30 16Z" fill="#fff"/>
+  <path d="M44 64v14c11 11 29 11 40 0V64L64 75Z" fill="#fff"/>
+  <path d="M93 56v17" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="93" cy="77" r="3.5" fill="#4be1d2"/>
+  <path d="M36 91h14M78 91h14" stroke="#4be1d2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="31" cy="91" r="3" fill="#4be1d2"/><circle cx="97" cy="91" r="3" fill="#4be1d2"/>
+</svg>

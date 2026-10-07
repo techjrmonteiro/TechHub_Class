@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TechHub Class — cursos de TI com materiais organizados por curso, turma e disciplina.">
+  <meta name="theme-color" content="#00005e">
+  <title>TechHub Class | Aprenda tecnologia</title>
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#/" aria-label="TechHub Class — página inicial">
+          <img class="brand-logo" src="./assets/logo.svg" alt="">
+          <span class="brand-wordmark"><strong>Tech<span>Hub</span></strong><small>CLASS</small></span>
+        </a>
+        <button class="mobile-menu" type="button" aria-label="Abrir menu" aria-expanded="false"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#/"><i class="fa-solid fa-house" aria-hidden="true"></i> Início</a>
+          <a href="#/cursos"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Cursos</a>
+          <a href="#/categorias"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Categorias</a>
+          <a href="#/sobre"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Sobre</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="container page-content" tabindex="-1">
+      <div class="loading-state"><i class="fa-solid fa-circle-notch fa-spin" aria-hidden="true"></i><span>Carregando TechHub Class...</span></div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="./assets/logo.svg" alt="" class="footer-logo">
+          <div><strong>TechHub Class</strong><p>Conhecimento que conecta você ao futuro.</p></div>
+        </div>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+          <a href="#/"><i class="fa-solid fa-house" aria-hidden="true"></i> Início</a>
+          <a href="#/cursos"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Cursos</a>
+          <a href="#/categorias"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Categorias</a>
+        </nav>
+        <div class="footer-copy">© <span id="footer-year"></span> TechHub Class. Todos os direitos reservados.</div>
+      </div>
+    </footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>

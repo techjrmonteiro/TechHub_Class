@@ -1,0 +1,129 @@
+{
+  "categorias": [
+    {
+      "id": "aperfeicoamento-profissional",
+      "nome": "Aperfeiçoamento Profissional",
+      "descricao": "Aprimore e atualize seus conhecimentos para avançar profissionalmente.",
+      "icone": "fa-rocket"
+    },
+    {
+      "id": "aprendizagem-industrial",
+      "nome": "Aprendizagem Industrial",
+      "descricao": "Desenvolva competências técnicas para ambientes e processos industriais.",
+      "icone": "fa-industry"
+    },
+    {
+      "id": "iniciacao-profissional",
+      "nome": "Iniciação Profissional",
+      "descricao": "Dê os primeiros passos na sua trajetória profissional.",
+      "icone": "fa-user-graduate"
+    },
+    {
+      "id": "qualificacao-profissional",
+      "nome": "Qualificação Profissional",
+      "descricao": "Desenvolva competências específicas para o mundo do trabalho.",
+      "icone": "fa-award"
+    },
+    {
+      "id": "tecnico",
+      "nome": "Técnico",
+      "descricao": "Formação técnica com conteúdos organizados por disciplinas.",
+      "icone": "fa-code"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "tecnicas-em-informatica",
+      "nome": "Técnicas em Informática",
+      "categoria": "aperfeicoamento-profissional",
+      "descricao": "Aperfeiçoamento de conhecimentos e práticas relacionadas à informática.",
+      "status": "Ativo",
+      "icone": "fa-laptop-code",
+      "turmas": []
+    },
+    {
+      "id": "excel-avancado",
+      "nome": "Excel Avançado",
+      "categoria": "aperfeicoamento-profissional",
+      "descricao": "Recursos avançados, análise de dados e produtividade com planilhas.",
+      "status": "Ativo",
+      "icone": "fa-file-excel",
+      "turmas": [
+        {
+          "id": "app-392-170",
+          "codigo": "APP.392.170",
+          "nome": "Excel Avançado",
+          "periodo": "Turma APP.392.170",
+          "status": "Ativa",
+          "descricao": "Materiais, atividades e referências da turma APP.392.170.",
+          "disciplinas": [],
+          "materiais": [
+            {
+              "id": "excel-material-turma",
+              "nome": "Materiais da turma",
+              "tipo": "Pasta",
+              "descricao": "Espaço reservado para apostilas, planilhas e atividades da turma.",
+              "url": "#",
+              "tamanho": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operador-de-computadores",
+      "nome": "Operador de Computadores",
+      "categoria": "qualificacao-profissional",
+      "descricao": "Formação em operação e utilização de recursos computacionais.",
+      "status": "Ativo",
+      "icone": "fa-desktop",
+      "turmas": []
+    },
+    {
+      "id": "desenvolvimento-de-sistemas",
+      "nome": "Desenvolvimento de Sistemas",
+      "categoria": "tecnico",
+      "descricao": "Programação, desenvolvimento e construção de soluções de software.",
+      "status": "Ativo",
+      "icone": "fa-code",
+      "turmas": []
+    },
+    {
+      "id": "informatica",
+      "nome": "Informática",
+      "categoria": "tecnico",
+      "descricao": "Formação técnica em informática, infraestrutura e tecnologias computacionais.",
+      "status": "Ativo",
+      "icone": "fa-network-wired",
+      "turmas": [
+        {
+          "id": "tec-032-038",
+          "codigo": "TEC.032.038",
+          "nome": "Informática",
+          "periodo": "Turma TEC.032.038",
+          "status": "Ativa",
+          "descricao": "Conteúdos e materiais organizados por disciplina da turma TEC.032.038.",
+          "disciplinas": [
+            {
+              "id": "instalacao-e-manutencao-de-redes-soho",
+              "nome": "Instalação e Manutenção de Redes SOHO",
+              "cargaHoraria": "A definir",
+              "descricao": "Instalação, configuração, manutenção e diagnóstico de redes SOHO (Small Office/Home Office).",
+              "materiais": [
+                {
+                  "id": "redes-soho-material",
+                  "nome": "Materiais da disciplina",
+                  "tipo": "Pasta",
+                  "descricao": "Espaço reservado para apostilas, roteiros de laboratório e atividades.",
+                  "url": "#",
+                  "tamanho": ""
+                }
+              ]
+            }
+          ],
+          "materiais": []
+        }
+      ]
+    }
+  ]
+}
