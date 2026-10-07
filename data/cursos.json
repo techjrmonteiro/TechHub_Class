@@ -111,11 +111,11 @@
               "descricao": "Instalação, configuração, manutenção e diagnóstico de redes SOHO (Small Office/Home Office).",
               "materiais": [
                 {
-                  "id": "redes-soho-material",
-                  "nome": "Materiais da disciplina",
-                  "tipo": "Pasta",
-                  "descricao": "Espaço reservado para apostilas, roteiros de laboratório e atividades.",
-                  "url": "#",
+                  "id": "redes-soho-cisco-cenario-07",
+                  "nome": "Cenário Cisco 07",
+                  "tipo": "PDF",
+                  "descricao": "Cenário 07: Escritório Coworking.",
+                  "url": "/materiais/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
                   "tamanho": ""
                 }
               ]
