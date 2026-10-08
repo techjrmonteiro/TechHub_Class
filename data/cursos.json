@@ -201,23 +201,23 @@
                   "materiais": []
                 },
 
-                {
-                  "id": "diagramas",
-                  "nome": "Atividades",
-                  "descricao": "Atividades Práticas.",
-                  "icone": "fa-book",
-
-                  "materiais": [
-                    {
-                  "id": "cenario-cisco-08",
-                  "nome": "Cenário Cisco 08",
-                  "tipo": "PDF",
-                  "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais",
-                  "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
-                  "tamanho": "17,5KB"
-                }
-                  ]
-                }
+                
+{
+  "id": "diagramas",
+  "nome": "Atividades",
+  "descricao": "Atividades práticas da disciplina.",
+  "icone": "fa-book",
+  "materiais": [
+    {
+      "id": "cenario-cisco-08",
+      "nome": "Cenário Cisco 08",
+      "tipo": "PDF",
+      "descricao": "Atividade prática de configuração e diagnóstico de redes no Cisco.",
+      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
+      "tamanho": "17,5 KB"
+    }
+  ]
+}
               ]
             }
           ],
