@@ -112,6 +112,14 @@
                   "descricao": "Exercícios das Funções: SOMA, MÉDIA, MÁXIMO, MÍNIMO, MAIOR e MENOR.",
                   "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 2.xlsx",
                   "tamanho": "17,5KB"
+                },
+                {
+                  "id": "excel-exercicio-revisao-03",
+                  "nome": "Exercício de Revisão 03",
+                  "tipo": "XLSX",
+                  "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 03.xlsx",
+                  "tamanho": "17,5KB"
                 }
               ]
             }
