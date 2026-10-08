@@ -31,6 +31,7 @@
       "icone": "fa-code"
     }
   ],
+
   "cursos": [
     {
       "id": "tecnicas-em-informatica",
@@ -41,6 +42,7 @@
       "icone": "fa-laptop-code",
       "turmas": []
     },
+
     {
       "id": "excel-avancado",
       "nome": "Excel Avançado",
@@ -48,6 +50,7 @@
       "descricao": "Recursos avançados, análise de dados e produtividade com planilhas.",
       "status": "Ativo",
       "icone": "fa-file-excel",
+
       "turmas": [
         {
           "id": "app-392-170",
@@ -56,20 +59,50 @@
           "periodo": "Turma APP.392.170",
           "status": "Ativa",
           "descricao": "Materiais, atividades e referências da turma APP.392.170.",
+
           "disciplinas": [],
-          "materiais": [
+
+          "gruposMateriais": [
             {
-              "id": "excel-material-turma",
-              "nome": "Materiais da turma",
-              "tipo": "Pasta",
-              "descricao": "Espaço reservado para apostilas, planilhas e atividades da turma.",
-              "url": "#",
-              "tamanho": ""
+              "id": "apostilas",
+              "nome": "Apostilas",
+              "descricao": "Apostilas e materiais principais utilizados durante o curso.",
+              "icone": "fa-book",
+
+              "materiais": [
+                {
+                  "id": "excel-revisao",
+                  "nome": "Apostila de Revisão",
+                  "tipo": "PDF",
+                  "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/EXCEL AVANÇADO - REVISÃO.pdf",
+                  "tamanho": ""
+                }
+              ]
+            },
+
+            {
+              "id": "materiais-complementares",
+              "nome": "Materiais Complementares",
+              "descricao": "Materiais adicionais para complementar os estudos.",
+              "icone": "fa-folder-open",
+
+              "materiais": []
+            },
+
+            {
+              "id": "planilhas",
+              "nome": "Planilhas",
+              "descricao": "Planilhas utilizadas durante as aulas e exercícios.",
+              "icone": "fa-file-excel",
+
+              "materiais": []
             }
           ]
         }
       ]
     },
+
     {
       "id": "operador-de-computadores",
       "nome": "Operador de Computadores",
@@ -79,6 +112,7 @@
       "icone": "fa-desktop",
       "turmas": []
     },
+
     {
       "id": "desenvolvimento-de-sistemas",
       "nome": "Desenvolvimento de Sistemas",
@@ -86,8 +120,10 @@
       "descricao": "Programação, desenvolvimento e construção de soluções de software.",
       "status": "Ativo",
       "icone": "fa-code",
+
       "turmas": []
     },
+
     {
       "id": "informatica",
       "nome": "Informática",
@@ -95,6 +131,7 @@
       "descricao": "Formação técnica em informática, infraestrutura e tecnologias computacionais.",
       "status": "Ativo",
       "icone": "fa-network-wired",
+
       "turmas": [
         {
           "id": "tec-032-038",
@@ -103,25 +140,55 @@
           "periodo": "Turma TEC.032.038",
           "status": "Ativa",
           "descricao": "Conteúdos e materiais organizados por disciplina da turma TEC.032.038.",
+
           "disciplinas": [
             {
               "id": "instalacao-e-manutencao-de-redes-soho",
               "nome": "Instalação e Manutenção de Redes SOHO",
               "cargaHoraria": "A definir",
               "descricao": "Instalação, configuração, manutenção e diagnóstico de redes SOHO (Small Office/Home Office).",
-              "materiais": [
+
+              "gruposMateriais": [
                 {
-                  "id": "redes-soho-cisco-cenario-07",
-                  "nome": "Cenário Cisco 07",
-                  "tipo": "PDF",
-                  "descricao": "Cenário 07: Escritório Coworking.",
-                  "url": "./materiais/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
-                  "tamanho": "303kb"
+                  "id": "apostilas",
+                  "nome": "Apostilas",
+                  "descricao": "Apostilas e materiais principais da disciplina.",
+                  "icone": "fa-book",
+
+                  "materiais": [
+                    {
+                      "id": "apostila-redes-soho",
+                      "nome": "Apostila — Redes SOHO",
+                      "tipo": "PDF",
+                      "descricao": "Material de apoio da disciplina Instalação e Manutenção de Redes SOHO.",
+                      "url": "#",
+                      "tamanho": "4,2 MB"
+                    }
+                  ]
+                },
+
+                {
+                  "id": "materiais-complementares",
+                  "nome": "Materiais Complementares",
+                  "descricao": "Materiais adicionais para aprofundamento da disciplina.",
+                  "icone": "fa-folder-open",
+
+                  "materiais": []
+                },
+
+                {
+                  "id": "diagramas",
+                  "nome": "Diagramas e Projetos",
+                  "descricao": "Diagramas, projetos e arquivos utilizados nas atividades práticas.",
+                  "icone": "fa-diagram-project",
+
+                  "materiais": []
                 }
               ]
             }
           ],
-          "materiais": []
+
+          "gruposMateriais": []
         }
       ]
     }
