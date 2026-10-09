@@ -31,7 +31,6 @@
       "icone": "fa-code"
     }
   ],
-
   "cursos": [
     {
       "id": "tecnicas-em-informatica",
@@ -42,7 +41,6 @@
       "icone": "fa-laptop-code",
       "turmas": []
     },
-
     {
       "id": "excel-avancado",
       "nome": "Excel Avançado",
@@ -50,7 +48,6 @@
       "descricao": "Recursos avançados, análise de dados e produtividade com planilhas.",
       "status": "Ativo",
       "icone": "fa-file-excel",
-
       "turmas": [
         {
           "id": "app-392-170",
@@ -59,16 +56,13 @@
           "periodo": "Turma APP.392.170",
           "status": "Ativa",
           "descricao": "Materiais, atividades e referências da turma APP.392.170.",
-
           "disciplinas": [],
-
           "gruposMateriais": [
             {
               "id": "apostilas",
               "nome": "Apostilas",
               "descricao": "Apostilas e materiais principais utilizados durante o curso.",
               "icone": "fa-book",
-
               "materiais": [
                 {
                   "id": "excel-revisao",
@@ -80,22 +74,18 @@
                 }
               ]
             },
-
             {
               "id": "materiais-complementares",
               "nome": "Materiais Complementares",
               "descricao": "Materiais adicionais para complementar os estudos.",
               "icone": "fa-folder-open",
-
               "materiais": []
             },
-
             {
               "id": "exercicios",
               "nome": "Exercícios",
               "descricao": "Planilhas utilizadas durante as aulas e exercícios.",
               "icone": "fa-file-excel",
-
               "materiais": [
                 {
                   "id": "excel-exercicio-revisao-01",
@@ -127,7 +117,6 @@
         }
       ]
     },
-
     {
       "id": "operador-de-computadores",
       "nome": "Operador de Computadores",
@@ -137,7 +126,6 @@
       "icone": "fa-desktop",
       "turmas": []
     },
-
     {
       "id": "desenvolvimento-de-sistemas",
       "nome": "Desenvolvimento de Sistemas",
@@ -145,10 +133,8 @@
       "descricao": "Programação, desenvolvimento e construção de soluções de software.",
       "status": "Ativo",
       "icone": "fa-code",
-
       "turmas": []
     },
-
     {
       "id": "informatica",
       "nome": "Informática",
@@ -156,7 +142,6 @@
       "descricao": "Formação técnica em informática, infraestrutura e tecnologias computacionais.",
       "status": "Ativo",
       "icone": "fa-network-wired",
-
       "turmas": [
         {
           "id": "tec-032-038",
@@ -165,21 +150,18 @@
           "periodo": "Turma TEC.032.038",
           "status": "Ativa",
           "descricao": "Conteúdos e materiais organizados por disciplina da turma TEC.032.038.",
-
           "disciplinas": [
             {
               "id": "instalacao-e-manutencao-de-redes-soho",
               "nome": "Instalação e Manutenção de Redes SOHO",
               "cargaHoraria": "A definir",
               "descricao": "Instalação, configuração, manutenção e diagnóstico de redes SOHO (Small Office/Home Office).",
-
               "gruposMateriais": [
                 {
                   "id": "apostilas",
                   "nome": "Apostilas",
                   "descricao": "Apostilas e materiais principais da disciplina.",
                   "icone": "fa-book",
-
                   "materiais": [
                     {
                       "id": "apostila-redes-soho",
@@ -191,37 +173,104 @@
                     }
                   ]
                 },
-
                 {
-                  "id": "materiais-complementares",
-                  "nome": "Materiais Complementares",
-                  "descricao": "Materiais adicionais para aprofundamento da disciplina.",
+                  "id": "atividades",
+                  "nome": "Atividades",
+                  "descricao": "Atividades práticas da disciplina.",
                   "icone": "fa-folder-open",
-
-                  "materiais": []
+                  "materiais": [
+                    {
+                      "id": "cenarios-sweet-home",
+                      "nome": "Cenário Cisco 01",
+                      "tipo": "PDF",
+                      "descricao": "Cenários do Sweet Home 3D.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 01.pdf",
+                      "tamanho": "240 KB"
+                    },{
+                      "id": "cenario-cisco-01",
+                      "nome": "Cenário Cisco 01",
+                      "tipo": "PDF",
+                      "descricao": "Pequeno Escritório: Configuração de uma rede cabeada para quatro computadores, com distribuição automática de endereços IP (DHCP).",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 01.pdf",
+                      "tamanho": "240 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-02",
+                      "nome": "Cenário Cisco 02",
+                      "tipo": "PDF",
+                      "descricao": "Home Office com Wi-Fi: Configuração de uma rede doméstica com computador, notebook, smartphone e impressora, utilizando conexões cabeadas e sem fio.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 02.pdf",
+                      "tamanho": "193 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-03",
+                      "nome": "Cenário Cisco 03",
+                      "tipo": "PDF",
+                      "descricao": "Pequena Empresa com Rede de Visitantes: Configuração de VLANs para separar administração, funcionários e visitantes, restringindo o acesso aos recursos internos.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 03.pdf",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-04",
+                      "nome": "Cenário Cisco 04",
+                      "tipo": "PDF",
+                      "descricao": "Empresa com Setores Administrativo e Comercial: Configuração de uma rede compartilhada entre dois setores, com impressora de rede, Wi-Fi para smartphones e cabeamento direto e cruzado.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 04.pdf",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-05",
+                      "nome": "Cenário Cisco 05",
+                      "tipo": "PDF",
+                      "descricao": "Rede Escolar com Laboratórios: Configuração da rede de uma escola com setores administrativos, três laboratórios e sala dos professores, utilizando VLANs e Wi-Fi exclusivo.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 05.pdf",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-06",
+                      "nome": "Cenário Cisco 06",
+                      "tipo": "PDF",
+                      "descricao": "Empresa com Controle de Acesso: Configuração de uma rede corporativa com diretoria, estagiários, recepção e redes Wi-Fi separadas para funcionários e visitantes.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 06.pdf",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-07",
+                      "nome": "Cenário Cisco 07",
+                      "tipo": "PDF",
+                      "descricao": "Escritório com Espaços Compartilhados: Configuração de uma rede para recepção, sala de gestão, coworking, sala de reuniões e sala de redes.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "cenario-cisco-08",
+                      "nome": "Cenário Cisco 08",
+                      "tipo": "PDF",
+                      "descricao": "Escritório com Servidor de Arquivos: Configuração de uma rede corporativa com servidor de arquivos para centralizar o armazenamento e permitir o acesso aos arquivos pelos computadores autorizados.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
+                      "tamanho": "17,5 KB"
+                    }
+                  ]
                 },
-
-                
-{
-  "id": "diagramas",
-  "nome": "Atividades",
-  "descricao": "Atividades práticas da disciplina.",
-  "icone": "fa-book",
-  "materiais": [
-    {
-      "id": "cenario-cisco-08",
-      "nome": "Cenário Cisco 08",
-      "tipo": "PDF",
-      "descricao": "Atividade prática de configuração e diagnóstico de redes no Cisco.",
-      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
-      "tamanho": "17,5 KB"
-    }
-  ]
-}
+                {
+                  "id": "avaliacoes",
+                  "nome": "Avaliações",
+                  "descricao": "Atividades Avaliativas",
+                  "icone": "fa-solid fa-file-lines",
+                  "materiais": [
+                    {
+                      "id": "atividade-avaliativa-01",
+                      "nome": "Atividade Avaliativa 01",
+                      "tipo": "PDF",
+                      "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 01.pdf",
+                      "tamanho": "0,3 MB"
+                    }
+                  ]
+                },
               ]
             }
           ],
-
           "gruposMateriais": []
         }
       ]
