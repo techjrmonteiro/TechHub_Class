@@ -1,3 +1,4 @@
+
 {
   "categorias": [
     {
@@ -107,7 +108,7 @@
                   "id": "excel-exercicio-revisao-03",
                   "nome": "Exercício de Revisão 03",
                   "tipo": "XLSX",
-                  "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais",
+                  "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais.",
                   "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 03.xlsx",
                   "tamanho": "17,5KB"
                 }
@@ -180,13 +181,6 @@
                   "icone": "fa-folder-open",
                   "materiais": [
                     {
-                      "id": "cenarios-sweet-home",
-                      "nome": "Cenário Cisco 01",
-                      "tipo": "PDF",
-                      "descricao": "Cenários do Sweet Home 3D.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 01.pdf",
-                      "tamanho": "240 KB"
-                    },{
                       "id": "cenario-cisco-01",
                       "nome": "Cenário Cisco 01",
                       "tipo": "PDF",
@@ -255,8 +249,8 @@
                 {
                   "id": "avaliacoes",
                   "nome": "Avaliações",
-                  "descricao": "Atividades Avaliativas",
-                  "icone": "fa-solid fa-file-lines",
+                  "descricao": "Atividades avaliativas.",
+                  "icone": "fa-file-lines",
                   "materiais": [
                     {
                       "id": "atividade-avaliativa-01",
@@ -267,7 +261,7 @@
                       "tamanho": "0,3 MB"
                     }
                   ]
-                },
+                }
               ]
             }
           ],
