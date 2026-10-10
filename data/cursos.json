@@ -1,4 +1,3 @@
-
 {
   "categorias": [
     {
@@ -74,13 +73,6 @@
                   "tamanho": ""
                 }
               ]
-            },
-            {
-              "id": "materiais-complementares",
-              "nome": "Materiais Complementares",
-              "descricao": "Materiais adicionais para complementar os estudos.",
-              "icone": "fa-folder-open",
-              "materiais": []
             },
             {
               "id": "exercicios",
@@ -168,9 +160,17 @@
                       "id": "apostila-redes-soho",
                       "nome": "Apostila — Redes SOHO",
                       "tipo": "PDF",
-                      "descricao": "Material de apoio da disciplina Instalação e Manutenção de Redes SOHO.",
-                      "url": "#",
-                      "tamanho": "4,2 MB"
+                      "descricao": "Material didático introdutório sobre redes SOHO, abordando conceitos fundamentais, modelo OSI, infraestrutura física, ferramentas técnicas, leitura de plantas e modelagem de projetos de redes de computadores.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - AULAS 01 E 02.pdf",
+                      "tamanho": "1,6 MB"
+                    },
+                    {
+                      "id": "manual-sweet-home-3d",
+                      "nome": "Manual de Modelagem 3D",
+                      "tipo": "PDF",
+                      "descricao": "Manual com orientações básicas para criar e modelar edificações no Sweet Home 3D.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - MANUAL DE MODELAGEM DE EDIFICAÇÕES NO SWEET HOME 3D.pdf",
+                      "tamanho": "380 KB"
                     }
                   ]
                 },
@@ -180,6 +180,14 @@
                   "descricao": "Atividades práticas da disciplina.",
                   "icone": "fa-folder-open",
                   "materiais": [
+                    {
+                      "id": "cenarios-sweet-home-3d",
+                      "nome": "Cenários Sweet Home 3D",
+                      "tipo": "PDF",
+                      "descricao": "Cenários práticos para a elaboração de plantas de redes SOHO",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - CENÁRIOS DE REDES SOHO - MODELAGEM DE PLANTA.pdf",
+                      "tamanho": "298 KB"
+                    },
                     {
                       "id": "cenario-cisco-01",
                       "nome": "Cenário Cisco 01",
