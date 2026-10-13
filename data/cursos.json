@@ -288,7 +288,7 @@
                       "id": "atividade-avaliativa-02",
                       "nome": "Atividade Avaliativa 02",
                       "tipo": "PDF",
-                      "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
+                      "descricao": "Desenvolver e configurar uma rede de computadores no Cisco Packet Tracer, utilizando VLANs, DHCP, Wi-Fi, servidor FTP e ACLs, garantindo a conectividade, a segmentação e a segurança da rede.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 02.pdf",
                       "tamanho": "274 KB"
                     }
