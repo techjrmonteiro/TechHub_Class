@@ -69,8 +69,8 @@
                   "nome": "Apostila de Revisão",
                   "tipo": "PDF",
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/EXCEL AVANÇADO - REVISÃO.pdf",
-                  "tamanho": ""
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - REVISÃO.pdf",
+                  "tamanho": "1,31 MB"
                 }
               ]
             },
@@ -85,24 +85,40 @@
                   "nome": "Exercício de Revisão 01",
                   "tipo": "XLSX",
                   "descricao": "Exercícios das Funções: SOMA, MÉDIA, MÁXIMO, MÍNIMO, MAIOR e MENOR.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 01.xlsx",
-                  "tamanho": "17,5KB"
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 01.xlsx",
+                  "tamanho": "17,5 KB"
                 },
                 {
                   "id": "excel-exercicio-revisao-02",
                   "nome": "Exercício de Revisão 02",
                   "tipo": "XLSX",
                   "descricao": "Exercícios das Funções: SOMA, MÉDIA, MÁXIMO, MÍNIMO, MAIOR e MENOR.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 02.xlsx",
-                  "tamanho": "17,5KB"
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 02.xlsx",
+                  "tamanho": "16,8 KB"
                 },
                 {
                   "id": "excel-exercicio-revisao-03",
                   "nome": "Exercício de Revisão 03",
                   "tipo": "XLSX",
                   "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/Exercícios de Revisão 03.xlsx",
-                  "tamanho": "17,5KB"
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 03.xlsx",
+                  "tamanho": "22,3 KB"
+                }
+              ]
+            },
+            {
+              "id": "avaliacoes",
+              "nome": "Atividades Avaliativas",
+              "descricao": "Atividades avaliativas do curso.",
+              "icone": "fa-file-lines",
+              "materiais": [
+                {
+                  "id": "excel-avancado-avaliacao-basica",
+                  "nome": "Avaliação Básica",
+                  "tipo": "XLSX",
+                  "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA.xlsx",
+                  "tamanho": "24,5 KB"
                 }
               ]
             }
@@ -186,7 +202,7 @@
                       "tipo": "PDF",
                       "descricao": "Cenários práticos para a elaboração de plantas de redes SOHO",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - CENÁRIOS DE REDES SOHO - MODELAGEM DE PLANTA.pdf",
-                      "tamanho": "298 KB"
+                      "tamanho": "297 KB"
                     },
                     {
                       "id": "cenario-cisco-01",
@@ -210,7 +226,7 @@
                       "tipo": "PDF",
                       "descricao": "Pequena Empresa com Rede de Visitantes: Configuração de VLANs para separar administração, funcionários e visitantes, restringindo o acesso aos recursos internos.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 03.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "203 KB"
                     },
                     {
                       "id": "cenario-cisco-04",
@@ -218,7 +234,7 @@
                       "tipo": "PDF",
                       "descricao": "Empresa com Setores Administrativo e Comercial: Configuração de uma rede compartilhada entre dois setores, com impressora de rede, Wi-Fi para smartphones e cabeamento direto e cruzado.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 04.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "230 KB"
                     },
                     {
                       "id": "cenario-cisco-05",
@@ -226,7 +242,7 @@
                       "tipo": "PDF",
                       "descricao": "Rede Escolar com Laboratórios: Configuração da rede de uma escola com setores administrativos, três laboratórios e sala dos professores, utilizando VLANs e Wi-Fi exclusivo.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 05.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "262 KB"
                     },
                     {
                       "id": "cenario-cisco-06",
@@ -234,7 +250,7 @@
                       "tipo": "PDF",
                       "descricao": "Empresa com Controle de Acesso: Configuração de uma rede corporativa com diretoria, estagiários, recepção e redes Wi-Fi separadas para funcionários e visitantes.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 06.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "246 KB"
                     },
                     {
                       "id": "cenario-cisco-07",
@@ -242,7 +258,7 @@
                       "tipo": "PDF",
                       "descricao": "Escritório com Espaços Compartilhados: Configuração de uma rede para recepção, sala de gestão, coworking, sala de reuniões e sala de redes.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "252 KB"
                     },
                     {
                       "id": "cenario-cisco-08",
@@ -250,7 +266,7 @@
                       "tipo": "PDF",
                       "descricao": "Escritório com Servidor de Arquivos: Configuração de uma rede corporativa com servidor de arquivos para centralizar o armazenamento e permitir o acesso aos arquivos pelos computadores autorizados.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
-                      "tamanho": "17,5 KB"
+                      "tamanho": "254 KB"
                     }
                   ]
                 },
@@ -266,7 +282,15 @@
                       "tipo": "PDF",
                       "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 01.pdf",
-                      "tamanho": "0,3 MB"
+                      "tamanho": "234 KB"
+                    },
+                    {
+                      "id": "atividade-avaliativa-02",
+                      "nome": "Atividade Avaliativa 02",
+                      "tipo": "PDF",
+                      "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
+                      "url": "#",
+                      "tamanho": ""
                     }
                   ]
                 }
