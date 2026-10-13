@@ -163,7 +163,7 @@
             {
               "id": "instalacao-e-manutencao-de-redes-soho",
               "nome": "Instalação e Manutenção de Redes SOHO",
-              "cargaHoraria": "A definir",
+              "cargaHoraria": "120hs",
               "descricao": "Instalação, configuração, manutenção e diagnóstico de redes SOHO (Small Office/Home Office).",
               "gruposMateriais": [
                 {
@@ -289,8 +289,8 @@
                       "nome": "Atividade Avaliativa 02",
                       "tipo": "PDF",
                       "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
-                      "url": "#",
-                      "tamanho": ""
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 02.pdf",
+                      "tamanho": "274 KB"
                     }
                   ]
                 }
