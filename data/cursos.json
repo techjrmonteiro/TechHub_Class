@@ -113,12 +113,20 @@
               "icone": "fa-file-lines",
               "materiais": [
                 {
-                  "id": "excel-avancado-avaliacao-basica",
-                  "nome": "Avaliação Básica",
+                  "id": "excel-avancado-avaliacao-basica-01",
+                  "nome": "Avaliação Básica 01",
                   "tipo": "XLSX",
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
                   "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA.xlsx",
                   "tamanho": "24,5 KB"
+                },
+                {
+                  "id": "excel-avancado-avaliacao-basica-02",
+                  "nome": "Avaliação Básica 02",
+                  "tipo": "XLSX",
+                  "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA 02.xlsx",
+                  "tamanho": "19,0 KB"
                 }
               ]
             }
