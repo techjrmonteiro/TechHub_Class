@@ -71,6 +71,14 @@
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
                   "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - REVISÃO.pdf",
                   "tamanho": "1,31 MB"
+                },
+                {
+                  "id": "excel-avancado-apostila",
+                  "nome": "Apostila de Excel Avançado",
+                  "tipo": "PDF",
+                  "descricao": "Excel Avançado - Funções (Lógicas, Matemáticas, Estatísicas Condicionais, Referênciais e de Pesquisa) e Gráficos.",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - REVISÃO.pdf",
+                  "tamanho": "1,34 MB"
                 }
               ]
             },
