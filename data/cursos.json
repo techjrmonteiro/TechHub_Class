@@ -315,6 +315,14 @@
                       "descricao": "Escritório com Servidor de Arquivos: Configuração de uma rede corporativa com servidor de arquivos para centralizar o armazenamento e permitir o acesso aos arquivos pelos computadores autorizados.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
                       "tamanho": "254 KB"
+                    },
+                    {
+                      "id": "enderecamento-ip",
+                      "nome": "Atividade de Endereçamento IPV4",
+                      "tipo": "DOCX",
+                      "descricao": "Atividade de redes com exercícios de conversão binário/decimal, identificação de classes de IP, ID de rede, máscara de sub-rede e endereço de broadcast.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE DE ENDEREÇAMENTO IP.docx",
+                      "tamanho": "141 KB"
                     }
                   ]
                 },
