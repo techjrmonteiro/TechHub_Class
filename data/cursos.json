@@ -175,6 +175,14 @@
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
                   "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA 02.xlsx",
                   "tamanho": "19,0 KB"
+                },
+                {
+                  "id": "excel-avancado-avaliacao-especifica",
+                  "nome": "Avaliação Específica",
+                  "tipo": "XLSX",
+                  "descricao": "Funções Avançadas.",
+                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO ESPECÍFICA.xlsx",
+                  "tamanho": "19,0 KB"
                 }
               ]
             }
