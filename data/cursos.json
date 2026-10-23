@@ -251,6 +251,22 @@
                       "descricao": "Manual com orientações básicas para criar e modelar edificações no Sweet Home 3D.",
                       "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - MANUAL DE MODELAGEM DE EDIFICAÇÕES NO SWEET HOME 3D.pdf",
                       "tamanho": "380 KB"
+                    },
+                    {
+                      "id": "apostila-02",
+                      "nome": "Apostila — Redes SOHO 02",
+                      "tipo": "PDF",
+                      "descricao": "Material didático.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - APOSTILA 02.pdf",
+                      "tamanho": "980 KB"
+                    },
+                    {
+                      "id": "apostila-ipv4",
+                      "nome": "Apostila — Endereçamento IPv4",
+                      "tipo": "PDF",
+                      "descricao": "Apostila sobre Endereçamento IPv4.",
+                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/INSTALAÇÃO E MANUTENÇÃO DE REDES SOHO - Endereçamento IPv4.pdf",
+                      "tamanho": "1,30 MB"
                     }
                   ]
                 },
