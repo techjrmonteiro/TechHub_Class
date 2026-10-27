@@ -197,7 +197,40 @@
       "descricao": "Formação em operação e utilização de recursos computacionais.",
       "status": "Ativo",
       "icone": "fa-desktop",
-      "turmas": []
+      "turmas": [
+        {
+          "id": "qua-368-087",
+          "codigo": "QUA.368.087",
+          "nome": "Operador de Computadores - Hidro-Juquiri",
+          "periodo": "Turma APP.392.170",
+          "status": "Ativa",
+          "descricao": "Materiais, atividades e referências da turma QUA.368.087.",
+          "disciplinas": [],
+          "gruposMateriais": [
+            {
+              "id": "apostilas",
+              "nome": "Apostilas",
+              "descricao": "Apostilas e materiais principais utilizados durante o curso.",
+              "icone": "fa-book",
+              "materiais": []
+            },
+            {
+              "id": "exercicios",
+              "nome": "Exercícios",
+              "descricao": "Planilhas utilizadas durante as aulas e exercícios.",
+              "icone": "fa-file-excel",
+              "materiais": []
+            },
+            {
+              "id": "avaliacoes",
+              "nome": "Atividades Avaliativas",
+              "descricao": "Atividades avaliativas do curso.",
+              "icone": "fa-file-lines",
+              "materiais": []
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "desenvolvimento-de-sistemas",
