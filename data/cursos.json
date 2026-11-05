@@ -219,7 +219,16 @@
               "nome": "Exercícios",
               "descricao": "Planilhas utilizadas durante as aulas e exercícios.",
               "icone": "fa-file-pen",
-              "materiais": []
+              "materiais": [
+                {
+                  "id": "oc-word-exercicio-formatacao-artigo",
+                  "nome": "Exercício de Formatação de Artigo",
+                  "tipo": "DOCX",
+                  "descricao": "Exercícios de formatação de Artigo segundo normas ABNT.",
+                  "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Artigo - Inteligencia Artificial - Exercicio Word.docx",
+                  "tamanho": "17,5 KB"
+                }
+              ]
             },
             {
               "id": "avaliacoes",
