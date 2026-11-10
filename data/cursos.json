@@ -235,7 +235,16 @@
               "nome": "Atividades Avaliativas",
               "descricao": "Atividades avaliativas do curso.",
               "icone": "fa-file-lines",
-              "materiais": []
+              "materiais": [
+                {
+                  "id": "oc-word-atividade-formatacao-relatorio",
+                  "nome": "Atividade de Conclusão",
+                  "tipo": "DOCX",
+                  "descricao": "Atividade de Formatação de Documento para Relatório.",
+                  "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Relatório Técnico TI.docx",
+                  "tamanho": "17,5 KB"
+                }
+              ]
             }
           ]
         }
