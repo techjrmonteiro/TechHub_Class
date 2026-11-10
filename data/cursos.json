@@ -243,6 +243,14 @@
                   "descricao": "Atividade de Formatação de Documento para Relatório.",
                   "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Relatório Técnico TI.docx",
                   "tamanho": "17,5 KB"
+                },
+                {
+                  "id": "oc-link-atividade-formatacao-relatorio",
+                  "nome": "Link de Upload",
+                  "tipo": "url",
+                  "descricao": "Link para Upload da atividade.",
+                  "url": "https://forms.gle/cmMCcN6N6trY7PAY6",
+                  "tamanho": "17,5 KB"
                 }
               ]
             }
