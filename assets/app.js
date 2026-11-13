@@ -317,181 +317,153 @@ function countMaterials() {
 
 
 /**
- * Retorna o ícone adequado para um material.
+ * Normaliza os arquivos de um material.
+ *
+ * Estrutura atual:
+ * material.arquivos: [{ id, nome, tipo, url, tamanho }]
+ *
+ * Compatibilidade retroativa:
+ * também aceita materiais antigos com url/tipo/tamanho diretamente.
  */
-function materialIcon(material) {
-
-  const tipo =
-    String(material?.tipo || "")
-      .toLowerCase();
-
-  const nome =
-    String(material?.nome || "")
-      .toLowerCase();
-
-  const url =
-    String(material?.url || "")
-      .toLowerCase();
-
-
-  if (
-    tipo.includes("pdf") ||
-    url.endsWith(".pdf")
-  ) {
-    return "fa-file-pdf";
+function getMaterialFiles(material) {
+  if (!material || typeof material !== "object") {
+    return [];
   }
 
-
-  if (
-    tipo.includes("planilha") ||
-    tipo.includes("excel") ||
-    url.endsWith(".xlsx") ||
-    url.endsWith(".xls") ||
-    url.endsWith(".csv")
-  ) {
-    return "fa-file-excel";
+  if (Array.isArray(material.arquivos)) {
+    return material.arquivos
+      .filter(arquivo => arquivo && typeof arquivo === "object")
+      .map((arquivo, index) => ({
+        id: arquivo.id || `${material.id || "material"}-arquivo-${index + 1}`,
+        nome: arquivo.nome || arquivo.titulo || `Arquivo ${index + 1}`,
+        tipo: arquivo.tipo || arquivo.extensao || "",
+        url: arquivo.url || arquivo.link || "",
+        tamanho: arquivo.tamanho || ""
+      }));
   }
 
-
-  if (
-    tipo.includes("word") ||
-    url.endsWith(".docx") ||
-    url.endsWith(".doc")
-  ) {
-    return "fa-file-word";
+  // Compatibilidade com o formato anterior, de um único arquivo por material.
+  if (material.url || material.link) {
+    return [{
+      id: `${material.id || "material"}-arquivo`,
+      nome: material.nome || "Arquivo",
+      tipo: material.tipo || "",
+      url: material.url || material.link,
+      tamanho: material.tamanho || ""
+    }];
   }
 
+  return [];
+}
 
-  if (
-    tipo.includes("powerpoint") ||
-    tipo.includes("apresentação") ||
-    url.endsWith(".pptx") ||
-    url.endsWith(".ppt")
-  ) {
-    return "fa-file-powerpoint";
+
+/** Retorna o ícone adequado ao tipo ou à extensão do arquivo. */
+function materialIcon(file) {
+  const tipo = String(file?.tipo || "").toLowerCase();
+  const url = String(file?.url || "").split(/[?#]/)[0].toLowerCase();
+  const nome = String(file?.nome || "").toLowerCase();
+  const extension = (url || nome).match(/\.([a-z0-9]{2,5})$/)?.[1] || "";
+
+  if (tipo.includes("url") || /^(https?:)?\/\//i.test(String(file?.url || ""))) {
+    return "fa-link";
   }
-
-
-  if (
-    tipo.includes("pasta") ||
-    nome.includes("pasta")
-  ) {
-    return "fa-folder";
-  }
-
-
-  if (
-    tipo.includes("imagem") ||
-    url.endsWith(".jpg") ||
-    url.endsWith(".jpeg") ||
-    url.endsWith(".png") ||
-    url.endsWith(".webp")
-  ) {
-    return "fa-file-image";
-  }
-
-
-  if (
-    tipo.includes("zip") ||
-    url.endsWith(".zip") ||
-    url.endsWith(".rar") ||
-    url.endsWith(".7z")
-  ) {
-    return "fa-file-zipper";
-  }
-
+  if (tipo.includes("pdf") || extension === "pdf") return "fa-file-pdf";
+  if (["xlsx", "xls", "csv", "ods"].includes(extension) || /excel|planilha/.test(tipo)) return "fa-file-excel";
+  if (["doc", "docx", "odt"].includes(extension) || /word/.test(tipo)) return "fa-file-word";
+  if (["ppt", "pptx", "odp"].includes(extension) || /powerpoint|apresenta/.test(tipo)) return "fa-file-powerpoint";
+  if (["jpg", "jpeg", "png", "gif", "webp", "svg"].includes(extension) || /imagem/.test(tipo)) return "fa-file-image";
+  if (["zip", "rar", "7z", "tar", "gz"].includes(extension) || /compactado/.test(tipo)) return "fa-file-zipper";
+  if (["mp4", "mov", "avi", "mkv", "webm"].includes(extension) || /video/.test(tipo)) return "fa-file-video";
+  if (["mp3", "wav", "ogg", "m4a"].includes(extension) || /audio/.test(tipo)) return "fa-file-audio";
+  if (["pkt", "pka"].includes(extension) || /packet tracer/.test(tipo)) return "fa-file-code";
+  if (["html", "css", "js", "json", "xml", "java", "py", "sql"].includes(extension)) return "fa-file-code";
+  if (nome.includes("pasta") || tipo.includes("pasta")) return "fa-folder";
 
   return "fa-file-lines";
 }
 
 
 /**
- * Renderiza apenas a lista de materiais de um grupo.
+ * Renderiza os materiais de um grupo.
+ * Cada material pode conter vários arquivos em material.arquivos.
  */
 function materialList(materials) {
-
   if (!materials?.length) {
-
     return `
       <div class="empty compact">
-
-        <div class="empty-icon">
-          ${icon("fa-folder-open")}
-        </div>
-
+        <div class="empty-icon">${icon("fa-folder-open")}</div>
         <h2>Nenhum material cadastrado</h2>
-
-        <p>
-          Os arquivos adicionados a este grupo
-          aparecerão aqui.
-        </p>
-
+        <p>Os arquivos adicionados a este grupo aparecerão aqui.</p>
       </div>
     `;
   }
 
-
   return `
     <div class="materials-list">
-
       ${materials.map(material => {
+        const files = getMaterialFiles(material);
 
-        const url = fileURL(material.url);
+        const filesHTML = files.length
+          ? `
+            <div class="material-files">
+              ${files.map(file => {
+                const url = fileURL(file.url);
+                const isExternal = /^https?:\/\//i.test(url);
 
-        return `
-          <article class="material-row">
-
-            <div class="material-type">
-              ${icon(materialIcon(material))}
-            </div>
-
-            <div class="material-copy">
-
-              <h3>
-                ${escapeHTML(material.nome)}
-              </h3>
-
-              <p>
-                ${escapeHTML(material.descricao || "")}
-
-                ${
-                  material.tamanho
-                    ? ` · ${escapeHTML(material.tamanho)}`
-                    : ""
+                if (!url) {
+                  return `
+                    <div class="material-file material-file-unavailable">
+                      <span class="material-file-icon">${icon(materialIcon(file))}</span>
+                      <span class="material-file-name">${escapeHTML(file.nome)}</span>
+                      <span class="badge badge-muted">Link indisponível</span>
+                    </div>
+                  `;
                 }
-              </p>
 
-            </div>
-
-            <div class="material-action">
-
-              ${
-                url
-                  ? `
+                return `
+                  <div class="material-file">
+                    <span class="material-file-icon">${icon(materialIcon(file))}</span>
+                    <span class="material-file-copy">
+                      <strong>${escapeHTML(file.nome)}</strong>
+                      <small>
+                        ${escapeHTML(file.tipo || "Arquivo")}
+                        ${file.tamanho ? ` · ${escapeHTML(file.tamanho)}` : ""}
+                      </small>
+                    </span>
                     <a
                       class="btn btn-primary btn-small"
                       href="${escapeHTML(url)}"
                       target="_blank"
                       rel="noopener noreferrer"
+                      ${isExternal ? "" : 'download'}
+                      aria-label="${escapeHTML(isExternal ? "Abrir" : "Baixar")} ${escapeHTML(file.nome)}"
                     >
-                      Abrir arquivo
-                      ${icon("fa-arrow-up-right-from-square")}
+                      ${isExternal ? "Abrir link" : "Baixar arquivo"}
+                      ${icon(isExternal ? "fa-arrow-up-right-from-square" : "fa-download")}
                     </a>
-                  `
-                  : `
-                    <span class="badge badge-muted">
-                      Em breve
-                    </span>
-                  `
-              }
-
+                  </div>
+                `;
+              }).join("")}
             </div>
+          `
+          : `
+            <span class="badge badge-muted">Em breve</span>
+          `;
 
+        return `
+          <article class="material-row">
+            <div class="material-type">
+              ${icon(files.length ? materialIcon(files[0]) : "fa-folder-open")}
+            </div>
+            <div class="material-copy">
+              <h3>${escapeHTML(material.nome || "Material")}</h3>
+              ${material.descricao ? `<p>${escapeHTML(material.descricao)}</p>` : ""}
+              ${files.length > 1 ? `<small class="material-file-count">${files.length} arquivos disponíveis</small>` : ""}
+              ${filesHTML}
+            </div>
           </article>
         `;
-
       }).join("")}
-
     </div>
   `;
 }
@@ -547,6 +519,11 @@ function materialGroups(entity) {
         const materials =
           group.materiais || [];
 
+        const fileCount = materials.reduce(
+          (total, material) => total + getMaterialFiles(material).length,
+          0
+        );
+
         return `
           <section class="material-group">
 
@@ -580,12 +557,10 @@ function materialGroups(entity) {
 
               <span class="material-group-count">
 
-                ${
-                  materials.length
-                }
+                ${fileCount || materials.length}
 
                 ${
-                  materials.length === 1
+                  fileCount === 1
                     ? "arquivo"
                     : "arquivos"
                 }
@@ -623,8 +598,6 @@ function materialGroups(entity) {
     </div>
   `;
 }
-
-
 /* =========================================================
    BREADCRUMB
    ========================================================= */
@@ -1322,8 +1295,6 @@ function renderCourses() {
     }
   );
 }
-
-
 /* =========================================================
    CATEGORIAS
    ========================================================= */
@@ -1955,8 +1926,6 @@ function renderClass(id) {
 
   `;
 }
-
-
 /* =========================================================
    DISCIPLINA
    ========================================================= */
