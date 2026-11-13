@@ -1498,7 +1498,7 @@ code {
 }
 
 .row-copy {
-  flex: 1;
+    flex: 1;
   min-width: 0;
 }
 
@@ -2235,8 +2235,6 @@ code {
   transform:
     translate(-50%, 0);
 }
-
-
 /* =========================================================
    RESPONSIVIDADE — TABLETS
    ========================================================= */
@@ -2711,7 +2709,6 @@ code {
   }
 
 }
-
 /* =========================================================
    ARQUIVOS MÚLTIPLOS POR MATERIAL — TECHHUB
    Compatível com material.arquivos[] do novo app.js
@@ -2730,7 +2727,7 @@ code {
 .material-file {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 14px;
   min-width: 0;
   padding: 10px 12px;
   border: 1px solid #e5ebf5;
@@ -2782,8 +2779,10 @@ code {
   line-height: 1.4;
 }
 
+/* Botão alinhado à direita, separado das informações. */
 .material-file .btn {
   flex: 0 0 auto;
+  margin-left: auto;
   white-space: nowrap;
 }
 
@@ -2878,7 +2877,7 @@ code {
   }
 
   .material-file {
-    gap: 8px;
+    gap: 10px;
     padding: 9px;
   }
 
@@ -2934,7 +2933,7 @@ code {
   }
 
   .material-file {
-    gap: 7px;
+    gap: 9px;
     padding: 8px;
   }
 
