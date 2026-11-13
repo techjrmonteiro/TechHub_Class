@@ -1,3 +1,4 @@
+
 {
   "categorias": [
     {
@@ -67,18 +68,30 @@
                 {
                   "id": "excel-revisao",
                   "nome": "Apostila de Revisão",
-                  "tipo": "PDF",
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - REVISÃO.pdf",
-                  "tamanho": "1,31 MB"
+                  "arquivos": [
+                    {
+                      "id": "excel-revisao-pdf",
+                      "nome": "Apostila de Revisão",
+                      "tipo": "PDF",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - REVISÃO.pdf",
+                      "tamanho": "1,31 MB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-avancado-apostila",
                   "nome": "Apostila de Excel Avançado",
-                  "tipo": "PDF",
-                  "descricao": "Excel Avançado - Funções (Lógicas, Matemáticas, Estatísicas Condicionais, Referênciais e de Pesquisa) e Gráficos.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - Apostila.pdf",
-                  "tamanho": "1,34 MB"
+                  "descricao": "Excel Avançado - Funções Lógicas, Matemáticas, Estatísticas Condicionais, Referenciais e de Pesquisa e Gráficos.",
+                  "arquivos": [
+                    {
+                      "id": "excel-avancado-apostila-pdf",
+                      "nome": "Apostila de Excel Avançado",
+                      "tipo": "PDF",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/apostilas/EXCEL AVANÇADO - Apostila.pdf",
+                      "tamanho": "1,34 MB"
+                    }
+                  ]
                 }
               ]
             },
@@ -91,66 +104,114 @@
                 {
                   "id": "excel-exercicio-revisao-01",
                   "nome": "Exercício de Revisão 01",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios das Funções: SOMA, MÉDIA, MÁXIMO, MÍNIMO, MAIOR e MENOR.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 01.xlsx",
-                  "tamanho": "17,5 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-revisao-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 01.xlsx",
+                      "tamanho": "17,5 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-revisao-02",
                   "nome": "Exercício de Revisão 02",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios das Funções: SOMA, MÉDIA, MÁXIMO, MÍNIMO, MAIOR e MENOR.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 02.xlsx",
-                  "tamanho": "16,8 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-revisao-02-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 02.xlsx",
+                      "tamanho": "16,8 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-revisao-03",
                   "nome": "Exercício de Revisão 03",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios dos Operadores Matemáticos e Operadores Relacionais.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 03.xlsx",
-                  "tamanho": "22,3 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-revisao-03-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - Exercícios de Revisão 03.xlsx",
+                      "tamanho": "22,3 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-funcoes-logicas-01",
                   "nome": "Exercício de Funções Lógicas 01",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios das Funções Lógicas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES LÓGICAS 01.xlsx",
-                  "tamanho": "14,6 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-funcoes-logicas-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES LÓGICAS 01.xlsx",
+                      "tamanho": "14,6 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-funcoes-matematicas-estatiticas-01",
                   "nome": "Exercício de Funções Matemáticas e Estatísticas Condicionais 01",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios das Funções Matemáticas e Estatísticas Condicionais.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES MATEMÁTICAS E ESTATÍSTICAS CONDICIONAIS 01.xlsx",
-                  "tamanho": "22,2 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-funcoes-matematicas-estatiticas-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES MATEMÁTICAS E ESTATÍSTICAS CONDICIONAIS 01.xlsx",
+                      "tamanho": "22,2 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-funcoes-referencia-pesquisa-01",
                   "nome": "Exercício de Funções de Referência e Pesquisa 01",
-                  "tipo": "XLSX",
                   "descricao": "Exercícios das Funções de Referência e Pesquisa.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES REFERÊNCIA E PESQUISA 01.xlsx",
-                  "tamanho": "22,2 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-funcoes-referencia-pesquisa-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - FUNÇÕES REFERÊNCIA E PESQUISA 01.xlsx",
+                      "tamanho": "22,2 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-exercicio-representacao-grafica-01",
-                  "nome": "Exercício de Representaçoes Gráficas 01",
-                  "tipo": "XLSX",
+                  "nome": "Exercício de Representações Gráficas 01",
                   "descricao": "Exercícios sobre Gráficos.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - REPRESENTAÇÕES GRÁFICAS 01.xlsx",
-                  "tamanho": "16,8 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-exercicio-representacao-grafica-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO - REPRESENTAÇÕES GRÁFICAS 01.xlsx",
+                      "tamanho": "16,8 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-avancado-exercicio-revisao-01",
                   "nome": "Exercício de Revisão de Funções Avançadas",
-                  "tipo": "XLSX",
-                  "descricao": "Exercícios sobre Funções Avançadas",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO DE REVISÃO - FUNÇÕES AVANÇADAS.xlsx",
-                  "tamanho": "14,0 KB"
+                  "descricao": "Exercícios sobre Funções Avançadas.",
+                  "arquivos": [
+                    {
+                      "id": "excel-avancado-exercicio-revisao-01-xlsx",
+                      "nome": "Planilha de exercícios",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/atividades/EXCEL AVANÇADO - EXERCÍCIO DE REVISÃO - FUNÇÕES AVANÇADAS.xlsx",
+                      "tamanho": "14,0 KB"
+                    }
+                  ]
                 }
               ]
             },
@@ -163,26 +224,44 @@
                 {
                   "id": "excel-avancado-avaliacao-basica-01",
                   "nome": "Avaliação Básica 01",
-                  "tipo": "XLSX",
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA.xlsx",
-                  "tamanho": "24,5 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-avancado-avaliacao-basica-01-xlsx",
+                      "nome": "Arquivo da avaliação",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA.xlsx",
+                      "tamanho": "24,5 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-avancado-avaliacao-basica-02",
                   "nome": "Avaliação Básica 02",
-                  "tipo": "XLSX",
                   "descricao": "Primeiros Passos com Excel, Formatação de Tabelas, Fórmulas e Funções Básicas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA 02.xlsx",
-                  "tamanho": "19,0 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-avancado-avaliacao-basica-02-xlsx",
+                      "nome": "Arquivo da avaliação",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO BÁSICA 02.xlsx",
+                      "tamanho": "19,0 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "excel-avancado-avaliacao-especifica",
                   "nome": "Avaliação Específica",
-                  "tipo": "XLSX",
                   "descricao": "Funções Avançadas.",
-                  "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO ESPECÍFICA.xlsx",
-                  "tamanho": "19,0 KB"
+                  "arquivos": [
+                    {
+                      "id": "excel-avancado-avaliacao-especifica-xlsx",
+                      "nome": "Arquivo da avaliação",
+                      "tipo": "XLSX",
+                      "url": "./materiais/aperfeicoamento-profissional/excel-avancado/APP-392-170/avaliacoes/EXCEL AVANÇADO - AVALIAÇÃO ESPECÍFICA.xlsx",
+                      "tamanho": "19,0 KB"
+                    }
+                  ]
                 }
               ]
             }
@@ -223,18 +302,30 @@
                 {
                   "id": "oc-word-exercicio-formatacao-artigo",
                   "nome": "Exercício de Formatação de Artigo",
-                  "tipo": "DOCX",
-                  "descricao": "Exercícios de formatação de Artigo segundo normas ABNT.",
-                  "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Artigo - Inteligencia Artificial - Exercicio Word.docx",
-                  "tamanho": "17,5 KB"
+                  "descricao": "Exercícios de formatação de artigo segundo normas ABNT.",
+                  "arquivos": [
+                    {
+                      "id": "oc-word-exercicio-formatacao-artigo-docx",
+                      "nome": "Documento para formatação",
+                      "tipo": "DOCX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Artigo - Inteligencia Artificial - Exercicio Word.docx",
+                      "tamanho": "17,5 KB"
+                    }
+                  ]
                 },
                 {
                   "id": "oc-ppt-exercicio-03",
                   "nome": "Exercício de PowerPoint",
-                  "tipo": "PPTX",
-                  "descricao": "Exercícios de formatação de Apresentação de Slides.",
-                  "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Exercício PPT 03.pptx",
-                  "tamanho": "17,5 KB"
+                  "descricao": "Exercícios de formatação de apresentação de slides.",
+                  "arquivos": [
+                    {
+                      "id": "oc-ppt-exercicio-03-pptx",
+                      "nome": "Apresentação para edição",
+                      "tipo": "PPTX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Exercício PPT 03.pptx",
+                      "tamanho": "17,5 KB"
+                    }
+                  ]
                 }
               ]
             },
@@ -246,19 +337,43 @@
               "materiais": [
                 {
                   "id": "oc-word-atividade-formatacao-relatorio",
-                  "nome": "Atividade de Conclusão",
-                  "tipo": "DOCX",
-                  "descricao": "Atividade de Formatação de Documento para Relatório.",
-                  "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Relatório Técnico TI.docx",
-                  "tamanho": "17,5 KB"
+                  "nome": "Atividade de Conclusão Módulo Word",
+                  "descricao": "Atividade de formatação de documento para relatório.",
+                  "arquivos": [
+                    {
+                      "id": "oc-word-atividade-formatacao-relatorio-docx",
+                      "nome": "Modelo de relatório técnico",
+                      "tipo": "DOCX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Relatório Técnico TI.docx",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "oc-link-atividade-formatacao-relatorio-url",
+                      "nome": "Formulário de envio",
+                      "tipo": "URL",
+                      "url": "https://forms.gle/cmMCcN6N6trY7PAY6"
+                    }
+                  ]
                 },
                 {
-                  "id": "oc-link-atividade-formatacao-relatorio",
-                  "nome": "Link de Upload",
-                  "tipo": "url",
-                  "descricao": "Link para Upload da atividade.",
-                  "url": "https://forms.gle/cmMCcN6N6trY7PAY6",
-                  "tamanho": "17,5 KB"
+                  "id": "oc-ppt-atividade-formatacao-apresentacao",
+                  "nome": "Atividade de Conclusão Módulo PowerPoint",
+                  "descricao": "Apresentação sobre o Fruto do Açaí.",
+                  "arquivos": [
+                    {
+                      "id": "oc-atividade-ppt",
+                      "nome": "Atividade",
+                      "tipo": "PPTX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Atividade Avaliativa PPT.pptx",
+                      "tamanho": "17,5 KB"
+                    },
+                    {
+                      "id": "oc-link-atividade-formatacao-relatorio-url",
+                      "nome": "Modelo da Atividade",
+                      "tipo": "PDF",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Atividade Avaliativa PPT - Modelo.pdf"
+                    }
+                  ]
                 }
               ]
             }
@@ -306,34 +421,58 @@
                     {
                       "id": "apostila-redes-soho",
                       "nome": "Apostila — Redes SOHO",
-                      "tipo": "PDF",
                       "descricao": "Material didático introdutório sobre redes SOHO, abordando conceitos fundamentais, modelo OSI, infraestrutura física, ferramentas técnicas, leitura de plantas e modelagem de projetos de redes de computadores.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - AULAS 01 E 02.pdf",
-                      "tamanho": "1,6 MB"
+                      "arquivos": [
+                        {
+                          "id": "apostila-redes-soho-pdf",
+                          "nome": "Apostila — Aulas 01 e 02",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - AULAS 01 E 02.pdf",
+                          "tamanho": "1,6 MB"
+                        }
+                      ]
                     },
                     {
                       "id": "manual-sweet-home-3d",
                       "nome": "Manual de Modelagem 3D",
-                      "tipo": "PDF",
                       "descricao": "Manual com orientações básicas para criar e modelar edificações no Sweet Home 3D.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - MANUAL DE MODELAGEM DE EDIFICAÇÕES NO SWEET HOME 3D.pdf",
-                      "tamanho": "380 KB"
+                      "arquivos": [
+                        {
+                          "id": "manual-sweet-home-3d-pdf",
+                          "nome": "Manual de Modelagem de Edificações",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - MANUAL DE MODELAGEM DE EDIFICAÇÕES NO SWEET HOME 3D.pdf",
+                          "tamanho": "380 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "apostila-02",
                       "nome": "Apostila — Redes SOHO 02",
-                      "tipo": "PDF",
                       "descricao": "Material didático.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - APOSTILA 02.pdf",
-                      "tamanho": "980 KB"
+                      "arquivos": [
+                        {
+                          "id": "apostila-02-pdf",
+                          "nome": "Apostila 02",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/Instalação e Manutenção de Redes SOHO - APOSTILA 02.pdf",
+                          "tamanho": "980 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "apostila-ipv4",
                       "nome": "Apostila — Endereçamento IPv4",
-                      "tipo": "PDF",
                       "descricao": "Apostila sobre Endereçamento IPv4.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/INSTALAÇÃO E MANUTENÇÃO DE REDES SOHO - Endereçamento IPv4.pdf",
-                      "tamanho": "1,30 MB"
+                      "arquivos": [
+                        {
+                          "id": "apostila-ipv4-pdf",
+                          "nome": "Material de Endereçamento IPv4",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/apostilas/INSTALAÇÃO E MANUTENÇÃO DE REDES SOHO - Endereçamento IPv4.pdf",
+                          "tamanho": "1,30 MB"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -346,82 +485,142 @@
                     {
                       "id": "cenarios-sweet-home-3d",
                       "nome": "Cenários Sweet Home 3D",
-                      "tipo": "PDF",
-                      "descricao": "Cenários práticos para a elaboração de plantas de redes SOHO",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - CENÁRIOS DE REDES SOHO - MODELAGEM DE PLANTA.pdf",
-                      "tamanho": "297 KB"
+                      "descricao": "Cenários práticos para a elaboração de plantas de redes SOHO.",
+                      "arquivos": [
+                        {
+                          "id": "cenarios-sweet-home-3d-pdf",
+                          "nome": "Cenários para Modelagem de Redes SOHO",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - CENÁRIOS DE REDES SOHO - MODELAGEM DE PLANTA.pdf",
+                          "tamanho": "297 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-01",
                       "nome": "Cenário Cisco 01",
-                      "tipo": "PDF",
-                      "descricao": "Pequeno Escritório: Configuração de uma rede cabeada para quatro computadores, com distribuição automática de endereços IP (DHCP).",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 01.pdf",
-                      "tamanho": "240 KB"
+                      "descricao": "Pequeno Escritório: configuração de uma rede cabeada para quatro computadores, com distribuição automática de endereços IP (DHCP).",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-01-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 01.pdf",
+                          "tamanho": "240 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-02",
                       "nome": "Cenário Cisco 02",
-                      "tipo": "PDF",
-                      "descricao": "Home Office com Wi-Fi: Configuração de uma rede doméstica com computador, notebook, smartphone e impressora, utilizando conexões cabeadas e sem fio.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 02.pdf",
-                      "tamanho": "193 KB"
+                      "descricao": "Home Office com Wi-Fi: configuração de uma rede doméstica com computador, notebook, smartphone e impressora, utilizando conexões cabeadas e sem fio.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-02-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 02.pdf",
+                          "tamanho": "193 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-03",
                       "nome": "Cenário Cisco 03",
-                      "tipo": "PDF",
-                      "descricao": "Pequena Empresa com Rede de Visitantes: Configuração de VLANs para separar administração, funcionários e visitantes, restringindo o acesso aos recursos internos.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 03.pdf",
-                      "tamanho": "203 KB"
+                      "descricao": "Pequena Empresa com Rede de Visitantes: configuração de VLANs para separar administração, funcionários e visitantes, restringindo o acesso aos recursos internos.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-03-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 03.pdf",
+                          "tamanho": "203 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-04",
                       "nome": "Cenário Cisco 04",
-                      "tipo": "PDF",
-                      "descricao": "Empresa com Setores Administrativo e Comercial: Configuração de uma rede compartilhada entre dois setores, com impressora de rede, Wi-Fi para smartphones e cabeamento direto e cruzado.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 04.pdf",
-                      "tamanho": "230 KB"
+                      "descricao": "Empresa com Setores Administrativo e Comercial: configuração de uma rede compartilhada entre dois setores, com impressora de rede, Wi-Fi para smartphones e cabeamento direto e cruzado.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-04-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 04.pdf",
+                          "tamanho": "230 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-05",
                       "nome": "Cenário Cisco 05",
-                      "tipo": "PDF",
-                      "descricao": "Rede Escolar com Laboratórios: Configuração da rede de uma escola com setores administrativos, três laboratórios e sala dos professores, utilizando VLANs e Wi-Fi exclusivo.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 05.pdf",
-                      "tamanho": "262 KB"
+                      "descricao": "Rede Escolar com Laboratórios: configuração da rede de uma escola com setores administrativos, três laboratórios e sala dos professores, utilizando VLANs e Wi-Fi exclusivo.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-05-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 05.pdf",
+                          "tamanho": "262 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-06",
                       "nome": "Cenário Cisco 06",
-                      "tipo": "PDF",
-                      "descricao": "Empresa com Controle de Acesso: Configuração de uma rede corporativa com diretoria, estagiários, recepção e redes Wi-Fi separadas para funcionários e visitantes.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 06.pdf",
-                      "tamanho": "246 KB"
+                      "descricao": "Empresa com Controle de Acesso: configuração de uma rede corporativa com diretoria, estagiários, recepção e redes Wi-Fi separadas para funcionários e visitantes.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-06-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 06.pdf",
+                          "tamanho": "246 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-07",
                       "nome": "Cenário Cisco 07",
-                      "tipo": "PDF",
-                      "descricao": "Escritório com Espaços Compartilhados: Configuração de uma rede para recepção, sala de gestão, coworking, sala de reuniões e sala de redes.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
-                      "tamanho": "252 KB"
+                      "descricao": "Escritório com Espaços Compartilhados: configuração de uma rede para recepção, sala de gestão, coworking, sala de reuniões e sala de redes.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-07-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 07.pdf",
+                          "tamanho": "252 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "cenario-cisco-08",
                       "nome": "Cenário Cisco 08",
-                      "tipo": "PDF",
-                      "descricao": "Escritório com Servidor de Arquivos: Configuração de uma rede corporativa com servidor de arquivos para centralizar o armazenamento e permitir o acesso aos arquivos pelos computadores autorizados.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
-                      "tamanho": "254 KB"
+                      "descricao": "Escritório com Servidor de Arquivos: configuração de uma rede corporativa com servidor de arquivos para centralizar o armazenamento e permitir o acesso aos arquivos pelos computadores autorizados.",
+                      "arquivos": [
+                        {
+                          "id": "cenario-cisco-08-pdf",
+                          "nome": "Enunciado da atividade",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE CISCO CENÁRIO 08.pdf",
+                          "tamanho": "254 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "enderecamento-ip",
-                      "nome": "Atividade de Endereçamento IPV4",
-                      "tipo": "DOCX",
+                      "nome": "Atividade de Endereçamento IPv4",
                       "descricao": "Atividade de redes com exercícios de conversão binário/decimal, identificação de classes de IP, ID de rede, máscara de sub-rede e endereço de broadcast.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE DE ENDEREÇAMENTO IP.docx",
-                      "tamanho": "141 KB"
+                      "arquivos": [
+                        {
+                          "id": "enderecamento-ip-docx",
+                          "nome": "Documento da atividade",
+                          "tipo": "DOCX",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/atividades/Instalação e Manutenção de Redes SOHO - ATIVIDADE DE ENDEREÇAMENTO IP.docx",
+                          "tamanho": "141 KB"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -434,18 +633,30 @@
                     {
                       "id": "atividade-avaliativa-01",
                       "nome": "Atividade Avaliativa 01",
-                      "tipo": "PDF",
                       "descricao": "Modelar no Sweet Home 3D a estrutura física de uma empresa, incluindo paredes, portas, janelas, mobiliário e equipamentos de informática, respeitando as dimensões e especificações técnicas estabelecidas na atividade.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 01.pdf",
-                      "tamanho": "234 KB"
+                      "arquivos": [
+                        {
+                          "id": "atividade-avaliativa-01-pdf",
+                          "nome": "Enunciado da avaliação",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 01.pdf",
+                          "tamanho": "234 KB"
+                        }
+                      ]
                     },
                     {
                       "id": "atividade-avaliativa-02",
                       "nome": "Atividade Avaliativa 02",
-                      "tipo": "PDF",
                       "descricao": "Desenvolver e configurar uma rede de computadores no Cisco Packet Tracer, utilizando VLANs, DHCP, Wi-Fi, servidor FTP e ACLs, garantindo a conectividade, a segmentação e a segurança da rede.",
-                      "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 02.pdf",
-                      "tamanho": "274 KB"
+                      "arquivos": [
+                        {
+                          "id": "atividade-avaliativa-02-pdf",
+                          "nome": "Enunciado da avaliação",
+                          "tipo": "PDF",
+                          "url": "./materiais/tecnico/informatica/instalacao-manutencao-redes-soho/avaliacoes/Instalação e Manutenção de Redes SOHO - ATIVIDADE AVALIATIVA 02.pdf",
+                          "tamanho": "274 KB"
+                        }
+                      ]
                     }
                   ]
                 }
