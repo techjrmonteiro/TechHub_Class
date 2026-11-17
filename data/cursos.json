@@ -291,12 +291,27 @@
               "nome": "Apostilas",
               "descricao": "Apostilas e materiais principais utilizados durante o curso.",
               "icone": "fa-book",
-              "materiais": []
+              "materiais": [
+                {
+                  "id": "Operador-Computador-apostila",
+                  "nome": "Apostila ",
+                  "descricao": "Material didático.",
+                  "arquivos": [
+                    {
+                      "id": "oc-apostila-pdf",
+                      "nome": "Apostila do Curso",
+                      "tipo": "PDF",
+                      "url": "",
+                      "tamanho": ""
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "exercicios",
               "nome": "Exercícios",
-              "descricao": "Planilhas utilizadas durante as aulas e exercícios.",
+              "descricao": "Exercícios Práticos.",
               "icone": "fa-file-pen",
               "materiais": [
                 {
@@ -324,6 +339,20 @@
                       "tipo": "PPTX",
                       "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Exercício PPT 03.pptx",
                       "tamanho": "17,5 KB"
+                    }
+                  ]
+                },
+                {
+                  "id": "oc-excel-exercicios",
+                  "nome": "Exercícios de Excel",
+                  "descricao": "Exercícios de Excel.",
+                  "arquivos": [
+                    {
+                      "id": "oc-excel-exercicio-01",
+                      "nome": "Exercício de Excel 01",
+                      "tipo": "XLSX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Exercício 01 - Excel.xlsx",
+                      "tamanho": ""
                     }
                   ]
                 }
@@ -380,6 +409,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "assistente-informatica",
+      "nome": "Assistente em Informática",
+      "categoria": "qualificacao-profissional",
+      "descricao": "Formação e qualificação de conhecimentos e práticas relacionadas à informática.",
+      "status": "Ativo",
+      "icone": "fa-computer",
+      "turmas": []
     },
     {
       "id": "desenvolvimento-de-sistemas",
