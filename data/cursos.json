@@ -360,6 +360,13 @@
                       "tipo": "XLSX",
                       "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Exercício 02 - Excel.xlsx",
                       "tamanho": ""
+                    },
+                    {
+                      "id": "oc-excel-exercicio-03",
+                      "nome": "Exercício de Excel 03",
+                      "tipo": "XLSX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Exercício 03 - Excel.xlsx",
+                      "tamanho": ""
                     }
                   ]
                 }
