@@ -438,6 +438,20 @@
                       "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/Atividade Avaliativa PPT - Modelo.pdf"
                     }
                   ]
+                },
+                {
+                  "id": "oc-ppt-atividade-excel-basico",
+                  "nome": "Atividade de Conclusão Módulo Excel",
+                  "descricao": "Operadores Matemáticos, Operadores de Comparação e Funções Básicas.",
+                  "arquivos": [
+                    {
+                      "id": "oc-atividade-excel",
+                      "nome": "Atividade Final",
+                      "tipo": "XLSX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Atividade Avaliativa de Excel.xlsx",
+                      "tamanho": "17,5 KB"
+                    }
+                  ]
                 }
               ]
             }
