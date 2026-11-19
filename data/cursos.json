@@ -381,6 +381,13 @@
                       "tipo": "XLSX",
                       "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Exercício 05 - Excel.xlsx",
                       "tamanho": ""
+                    },
+                    {
+                      "id": "oc-excel-exercicio-revisao",
+                      "nome": "Exercício de Excel de Revisão",
+                      "tipo": "XLSX",
+                      "url": "./materiais/qualificacao-profissional/operador-computador/QUA-368-087/OPERADOR DE COMPUTADORES - Exercício de Revisão - Excel.xlsx",
+                      "tamanho": ""
                     }
                   ]
                 }
